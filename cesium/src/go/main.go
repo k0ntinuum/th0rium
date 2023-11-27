@@ -1,0 +1,16 @@
+package main
+const N = 26
+const B = 26
+const alph = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
+
+func main() {
+	t := new_thorium_system()
+	print_key(t.hard_key)
+	for i := 0 ; i < 8 ; i++ {
+		p := random_text(16)
+		c := t.encrypt(p)
+		print("f( ",str(p)," ) = ",str(c), "\n")
+		d := t.decrypt(c)
+		for i := range p { if p[i] != d[i] { print("ERROR ") } }
+	}
+}
