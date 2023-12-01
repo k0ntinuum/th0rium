@@ -7,9 +7,9 @@ typedef u_int32_t u32;
 typedef u_int64_t u64;
 const u32 N = 9;
 const u32 T = 34;
-const u32 B = 27;
-//char alph[] = "O| ";
-char alph[] = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+const u32 B = 3;
+char alph[] = "O| ";
+//char alph[] = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
 #include"shuffle.c"
 #include"randomize.c"
 #include"key.c"

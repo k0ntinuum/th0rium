@@ -16,7 +16,7 @@ char alph[] = "O|";
 #include"demo.c"
 	
 int main() {
-	encoding_demo();
-	//demo();
+	//encoding_demo();
+	demo();
 
 }
