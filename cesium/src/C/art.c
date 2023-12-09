@@ -7,7 +7,7 @@ void art() {
     hide_cursor();
     randomize_key(f);
     printf("\n\n\n\n\n\n\n\n\n\n\n\n\n");
-    delay = 5000;
+    delay = 3000;
     for (u32 a = 0; a < 1000000 ; a++) {
         //cursor_to(2,0);
         //print_key(f);

@@ -1,10 +1,10 @@
 void shift_row(u32 k[N][N], u32 r, u32 s) {
-    u32 temp[T];
+    u32 temp[N];
     for (u32 i = 0; i < N; i++) temp[i] = k[r][(i + s)%N];
     for (u32 i = 0; i < N; i++) k[r][i] = temp[i];
 }
 void shift_col(u32 k[N][N], u32 c, u32 s) {
-    u32 temp[T];
+    u32 temp[N];
     for (u32 i = 0; i < N; i++) temp[i] = k[(i + s)%N][c];
     for (u32 i = 0; i < N; i++) k[i][c] = temp[i];
 }

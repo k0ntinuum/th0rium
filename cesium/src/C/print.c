@@ -60,8 +60,8 @@ void print_symbol(u32 i) {
     u32 g = arc4random_uniform(60);
     u32 h = arc4random_uniform(255);
     //u32 h = 255;
-    //rgb(h,h,h);
-    rgb(0,h,0);
+    rgb(h,h,h);
+    //rgb(0,h,0);
     //if (g == 0 ) reverse_text();
     if (i < 26 ) printf("%c", alph[i]);
     else printf(" ");
